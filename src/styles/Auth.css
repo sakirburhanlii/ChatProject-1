@@ -1,0 +1,91 @@
+.auth {
+    text-align: center;
+    font-size: larger;
+    color: black;
+  }
+  
+  .auth button {
+    width: 200px;
+    height: 50px;
+    border: 5px groove black;
+    background-color: #3b5998;
+    color: white;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /*yazi*/
+  
+  .yazi {
+    background: url("https://c4.wallpaperflare.com/wallpaper/618/449/224/colorful-rgb-hd-wallpaper-preview.jpg");
+  }
+  
+  .yazi {
+    display: inline-flex;
+    font-family: "Pacifico", cursive;
+    font-size: 8rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: move 30s linear infinite;
+    letter-spacing: 0px;
+    margin-left: 250px;
+    letter-spacing: -5px;
+    text-shadow: rgb(0, 0, 0) 12px 12px 8px;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    word-spacing: 0px;
+  }
+  
+  @keyframes move {
+    from {
+      background-position: 0 80%;
+    }
+    to {
+      background-position: 100% 50%;
+    }
+  }
+  
+  /*Menü*/
+  
+  .menu {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 5px;
+  }
+  
+  .menu > a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1px;
+  }
+  .menu > a::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 0%;
+    transition: all 0.4s;
+    border-bottom: 2px solid yellow;
+  }
+  
+  .menu > a:hover::after {
+    width: 100%;
+  }
+  
+  /*Body*/
+  
+  body {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/052/292/975/4k/neil-burn-41-v2-final-signed-sized.jpg?1659441905");
+    background-position: center center;
+  }
+  
+  img {
+    width: 32px;
+  }
+  
